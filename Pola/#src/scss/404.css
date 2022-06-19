@@ -1,0 +1,49 @@
+.err-conteiner {
+  position: relative;
+}
+
+.err-ArticleCont {
+  position: absolute;
+  left: 35%;
+  bottom: -60vh;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.err-Back {
+  background-image: url("../img/steny-shtukaturka-tekstura.png");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.err-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.err-Article {
+  padding-right: 50px;
+}
+
+.err-statue {
+  bottom: -100vh;
+  right: 0;
+  position: absolute;
+  height: 80vh;
+}
+
+.home {
+  text-decoration: underline;
+  margin-top: 40px;
+  display: block;
+}
+/*# sourceMappingURL=404.css.map */

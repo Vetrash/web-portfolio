@@ -1,0 +1,122 @@
+.contact-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  .contact-block {
+    width: 710px;
+  }
+}
+
+@media (max-width: 750px) {
+  .contact-block {
+    width: 310px;
+    display: block;
+  }
+}
+
+.contact-flex-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 750px) {
+  .contact-flex-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.contact-block {
+  padding-bottom: 25px;
+}
+
+.contact-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-back {
+  position: absolute;
+  background: url("../img/steny-shtukaturka-tekstura.png");
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: -5;
+}
+
+.info p:nth-child(1) {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 750px) {
+  .info {
+    text-align: center;
+  }
+}
+
+.contact-left-collomn p:nth-child(1) {
+  padding-top: 35px;
+  padding-bottom: 15px;
+}
+
+.contact-right-collomn img {
+  opacity: 0.6;
+  padding-left: 25px;
+}
+
+@media (max-width: 1000px) {
+  .contact-right-collomn img {
+    display: none;
+  }
+}
+
+.contact-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: auto;
+}
+
+@media (max-width: 500px) {
+  .contact-menu {
+    display: none;
+  }
+}
+
+.contact-menu-conteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.soc-web-conteiner {
+  padding-top: 25px;
+}
+
+.soc-web-conteiner img {
+  opacity: 0.6;
+}
+
+@media (max-width: 750px) {
+  .map {
+    display: none;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

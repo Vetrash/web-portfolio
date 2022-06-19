@@ -1,0 +1,107 @@
+.form-conteiner{
+    position: relative;
+    //max-height: 262px;
+    overflow: hidden;
+}
+.form-back{
+    position: absolute;
+    background: url('../img/steny-shtukaturka-tekstura.png');
+    height: 100%;
+    //max-height: 262px;
+    width: 100%;
+    //width: 100%;
+    object-fit: contain;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: -5;
+    //opacity: 0.8;
+    @media (max-width: 1000px ){
+       
+       height: 400px;
+    }
+}
+.art-form{
+    padding-top: 40px;
+}
+
+.form-conteiner input{
+    max-width: 295px;
+    width:295px;
+    outline: none;
+    background: transparent;
+}
+.form-conteiner input::-webkit-input-placeholder {
+    color: #e8e9db;
+    opacity: 0.8;
+}
+.form-conteiner input:-moz-placeholder {
+    color: #e8e9db;
+    opacity: 0.8;
+}
+.blok-input{
+    padding-top: 30px;
+    @media (max-width: 400px ){
+        width: 295px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.flex-input{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    @media (max-width: 1000px ){
+        display: block;
+        width: 320px;
+    }
+}
+.btn{
+    padding-top: 100px;
+    //padding-bottom: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 376px;
+    @media (max-width: 450px ){
+        padding-top: 80px;
+    }
+    @media (max-width: 380px ){
+        max-width: 320px;
+    }
+    
+
+}
+.btn img{
+    position: absolute;
+    z-index: -1;
+    opacity: 0.4;
+    left: 0px;
+    top: 20px;
+    @media (max-width: 800px ){
+        width: 250px;
+        left: 60px;
+        top: 42px;
+    }
+    @media (max-width: 450px ){
+        left: 65px;
+        top: 30px;
+    }
+    @media (max-width: 380px ){
+        left: 36px;
+        top: 25px;
+    }
+}
+
+.btn :active {
+    opacity: 0.6;
+}
+
+.btn input {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 10px;
+    
+}

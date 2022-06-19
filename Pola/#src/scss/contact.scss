@@ -1,0 +1,94 @@
+.contact-block{
+    display: flex;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    @media (max-width: 1000px ){
+        width: 710px;
+        //display: block;
+    }
+
+    @media (max-width: 750px ){
+        width: 310px;
+        display: block;
+    }
+
+}
+.contact-flex-block{
+    display: flex;
+    @media (max-width: 750px ){
+        justify-content: center;
+    }
+    
+}
+.contact-block{
+    padding-bottom: 25px;
+}
+
+.contact-container{
+    position: relative; 
+    overflow: hidden;
+}
+
+.contact-back{
+    position: absolute;
+    background: url('../img/steny-shtukaturka-tekstura.png');
+    height: 100%;
+    width: 100%;
+    //width: 100%;
+    //object-fit: contain;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: -5;
+}
+.info p:nth-child(1){
+padding-top: 40px;
+padding-bottom: 20px;
+@media (max-width: 750px ){
+    padding-top: 0px;
+}
+}
+
+.info{
+    @media (max-width: 750px ){
+        text-align: center;
+    }
+    
+}
+
+.contact-left-collomn p:nth-child(1){
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+.contact-right-collomn img{
+    opacity: 0.6;
+    padding-left: 25px;
+    @media (max-width: 1000px ){
+        display: none;
+    }
+}
+.contact-menu{
+    display: flex; 
+    margin-top: auto;
+    @media (max-width: 500px ){
+        display: none;
+    }
+}
+.contact-menu-conteiner{
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+.soc-web-conteiner{
+    padding-top: 25px;
+}
+.soc-web-conteiner img{
+    opacity: 0.6;
+}
+.map{
+    @media (max-width: 750px ){
+        display:none;
+    }
+    
+}

@@ -1,0 +1,296 @@
+.Folder-Home {
+  position: relative;
+  height: 100vh;
+  font-family: 'Century Gothic';
+  color: #e8e9db;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+.Folder-Home-Back {
+  background-image: url("../img/steny-shtukaturka-tekstura.png");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.logo {
+  width: 188px;
+  display: block;
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    width: 150px;
+  }
+}
+
+@media (max-width: 900px) {
+  .logo {
+    width: 130px;
+  }
+}
+
+@media (max-width: 430px) {
+  .logo {
+    width: 100px;
+  }
+}
+
+@media (max-width: 350px) {
+  .logo {
+    width: 80px;
+  }
+}
+
+.UpMenuConteiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-left: 130px;
+  padding-top: 25px;
+}
+
+@media (max-width: 950px) {
+  .UpMenuConteiner {
+    padding-left: 80px;
+  }
+}
+
+@media (max-width: 950px) {
+  .UpMenuConteiner {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 430px) {
+  .UpMenuConteiner {
+    padding-left: 30px;
+  }
+}
+
+.UpMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-left: 50px;
+  padding-top: 35px;
+}
+
+@media (max-width: 900px) {
+  .UpMenu {
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 430px) {
+  .UpMenu {
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .UpMenu {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+}
+
+.UpMenu-Number {
+  padding-left: 30px;
+}
+
+@media (max-width: 430px) {
+  .UpMenu-Number {
+    display: none;
+  }
+}
+
+.UpMenu-TimeWork {
+  padding-left: 25px;
+}
+
+@media (max-width: 430px) {
+  .UpMenu-TimeWork {
+    display: none;
+  }
+}
+
+.statue {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+  height: 75%;
+}
+
+@media (max-width: 800px) {
+  .statue {
+    height: 70%;
+  }
+}
+
+@media (max-width: 430px) {
+  .statue {
+    height: 55%;
+  }
+}
+
+@media (max-width: 370px) {
+  .statue {
+    height: 51%;
+  }
+}
+
+.Folder-Home-ArticleCont {
+  padding-top: 90px;
+  padding-left: 155px;
+}
+
+@media (max-width: 1250px) {
+  .Folder-Home-ArticleCont {
+    max-width: 510px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Folder-Home-ArticleCont {
+    padding-left: 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Folder-Home-ArticleCont {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 430px) {
+  .Folder-Home-ArticleCont {
+    padding-top: 10px;
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 360px;
+  }
+}
+
+.Folder-Home-ArticleCont img {
+  opacity: 0.6;
+}
+
+@media (max-width: 800px) {
+  .Folder-Home-ArticleCont img:first-child {
+    height: 80px;
+  }
+}
+
+@media (max-width: 430px) {
+  .Folder-Home-ArticleCont img:first-child {
+    height: 50px;
+  }
+}
+
+@media (max-width: 430px) {
+  .Folder-Home-ArticleCont img:last-child {
+    height: 50px;
+    left: 50%;
+  }
+}
+
+.Folder-Home-SubArticle {
+  max-width: 500px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 430px) {
+  .Folder-Home-SubArticle {
+    width: 90%;
+  }
+}
+
+.smear {
+  position: absolute;
+  bottom: -20px;
+  left: 0px;
+  opacity: 0.7;
+  width: 100vw;
+}
+
+@media (max-width: 1225px) {
+  .smear {
+    bottom: -10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .smear {
+    bottom: -2px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #e8e9db;
+}
+
+.menu:first-child {
+  padding-left: 135px;
+}
+
+.menu-item:first-child {
+  padding-left: 135px;
+}
+
+@media (max-width: 1250px) {
+  .menu-item:first-child {
+    padding-left: 10px;
+  }
+}
+
+.menu-item {
+  padding-left: 50px;
+}
+
+@media (max-width: 1000px) {
+  .menu-item {
+    padding-left: 10px;
+  }
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 16px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right-align {
+  display: text;
+  float: right;
+}
+
+.br-bt {
+  border-bottom: #e8e9db 2px solid;
+}
+
+@media (max-width: 430px) {
+  .Folder-Home-Downmenu {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Folder-Home.css.map */

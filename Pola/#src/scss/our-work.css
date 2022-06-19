@@ -1,0 +1,46 @@
+.work-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.work-back {
+  position: absolute;
+  background: url("../img/steny-shtukaturka-tekstura.png");
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: -5;
+}
+
+.work-txt {
+  color: #e8e9db;
+  padding-top: 50px;
+}
+
+.our-work-artcile {
+  text-align: center;
+  padding-top: 45px;
+}
+
+.soc-web {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 25px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding-bottom: 30px;
+}
+
+.soc-web div a:first-child {
+  padding-right: 15px;
+}
+
+.soc-web div a img {
+  opacity: 0.6;
+}
+/*# sourceMappingURL=our-work.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAA;EACZ,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;EACpB,YAAY,EAAE,GAAG;EACjB,aAAa,EAAE,GAAG;CACrB;;AACD,AAAA,WAAW,CAAA;EACP,cAAc,EAAE,IAAI;CACvB",
+    "sources": [
+        "certificate.scss"
+    ],
+    "names": [],
+    "file": "certificate.css"
+}
